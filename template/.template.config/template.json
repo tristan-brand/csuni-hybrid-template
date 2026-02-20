@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Tristan",
+  "classifications": [ "Uni", "C#", "Console", "Tests", "Hybrid" ],
+  "name": "CS Uni Hybrid (sln + src/tests + make)",
+  "identity": "Tristan.CSUni.Hybrid",
+  "shortName": "csuni",
+  "sourceName": "ProjectName",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "AppProjectGuid": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA"
+    },
+    "TestProjectGuid": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB"
+    }
+  }
+}
